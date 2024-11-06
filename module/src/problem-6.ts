@@ -7,9 +7,7 @@
         email: string;
     }
 
-    // interface Partial {}
-
-    const  updateProfile = (profile:Profile,partial:{}):Profile =>{
+    const  updateProfile = (profile:Profile, partial:Partial<Profile>):Profile =>{
        return {...profile, ...partial}
 
     }
@@ -20,7 +18,7 @@
         email: 'alice@example.com'
     }
 
-    const updateMyProfile = updateProfile(myProfile, {age: 29})
+    const updateMyProfile = updateProfile(myProfile, {age: 39})
     // console.log(updateMyProfile)
 
 
