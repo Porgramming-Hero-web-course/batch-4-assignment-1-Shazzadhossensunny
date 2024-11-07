@@ -21,5 +21,5 @@
   };
 
   const result = validateKeys(person, ["name", "age"])
-//   console.log(result);
+
 }

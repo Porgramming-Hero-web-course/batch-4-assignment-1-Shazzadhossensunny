@@ -79,4 +79,4 @@ Conclusion: Picking between Union Type and Intersection Types:
 
 Types union and intersection are two types which allow better and more secure and effective coding structures in TypeScript. They are types of inclusion: when the value belongs to one or several groups, for instance Age can be an int, float, string, and several others.
 
-Using such types allows you to reduce the type constraints while improving the overall clarity of the TypeScript code. From making API calls to dealing with mast heads or building complex shapes, construct union/intersection types and you will not worry about it.
+Using such types allows you to reduce the type constraints while improving the overall clarity of the TypeScript code.

@@ -32,7 +32,7 @@
   };
 
   const result = calculateShapeArea(circleArea);
-//   console.log(result);
+
 
 
 

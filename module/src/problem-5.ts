@@ -17,7 +17,7 @@
 
     const result = getProperty(person, 'name')
 
-    // console.log(result)
+
 
 
 

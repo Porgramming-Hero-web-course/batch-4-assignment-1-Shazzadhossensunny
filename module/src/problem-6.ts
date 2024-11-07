@@ -18,8 +18,8 @@
         email: 'alice@example.com'
     }
 
-    const updateMyProfile = updateProfile(myProfile, {age: 39})
-    // console.log(updateMyProfile)
+    const updateMyProfile = updateProfile(myProfile, {age: 29})
+
 
 
 
